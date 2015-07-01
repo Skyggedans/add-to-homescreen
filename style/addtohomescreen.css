@@ -36,7 +36,7 @@
 	position: absolute;
 	z-index: 2147483641;
 	padding: 0.7em 0.6em;
-	width: 30em;
+	width: 24em;
 
 	background: #eee;
 	background-size: 100% auto;
@@ -64,17 +64,17 @@
 
 .ath-ios6.ath-tablet {
 	left: 5em;
-	top: 1.8em;
+	top: 7.5em;
 }
 
 .ath-ios7.ath-tablet {
 	left: 0.7em;
-	top: 1.8em;
+	top: 7.5em;
 }
 
 .ath-ios8.ath-tablet {
 	right: 0.4em;
-	top: 1.8em;
+	top: 7.5em;
 }
 
 .ath-android {
@@ -87,11 +87,11 @@
 .ath-container:before {
 	content: '';
 	position: relative;
-	display: none;
+	display: block;
 	float: right;
 	margin: -0.7em -0.6em 0 0.5em;
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAMAAABmmnOVAAAAdVBMVEUAAAA5OTkzMzM7Ozs3NzdBQUFAQEA/Pz8+Pj5BQUFAQEA/Pz8+Pj5BQUFAQEA/Pz9BQUE+Pj4/Pz8/Pz8+Pj4/Pz8/Pz8/Pz8+Pj4/Pz8+Pj4/Pz8/Pz8/Pz8/Pz8/Pz8+Pj4/Pz8/Pz8/Pz8/Pz9AQEA/Pz+fdCaPAAAAJnRSTlMACQoNDjM4OTo7PEFCQ0RFS6ytsbS1tru8vcTFxu7x8vX19vf4+C5yomAAAAJESURBVHgBvdzLTsJAGEfxr4C2KBcVkQsIDsK8/yPaqIsPzVlyzrKrX/5p0kkXEz81L23otc9NpIbbWia2YVLqdnhlqFlhGWpSDHe1aopsSIpRb8gK0dC3G30b9rVmhWZIimTICsvQtx/FsuYOrWHoDjX3Gu31gzJxdki934WrAIOsAIOsAIOiAMPhPsJTgKGN0BVsYIVsYIVpYIVpYIVpYIVpYIVpYIVpYIVpYIVlAIVgEBRs8BRs8BRs8BRs8BRs8BRs8BRs8BRTNmgKNngKNngKNngKNngKNhiKGxgiOlZoBlaYBlaYBlaYBlaYBlaYBlaYBlaYBlZIBlBMfQMrVAMr2KAqBENSHFHhGEABhi5CV6gGUKgGUKgGUKgGUFwuqgEUvoEVsoEVpoEUpgEUggF+gKTKY+h1fxSlC7/Z+RrxOQ3fcEoAPPHZBlaYBlaYBlaYBlZYBlYIhvLBCstw7PgM7hkiWOEZWGEaWGEaWGEaIsakEAysmHkGVpxmvoEVqoEVpoEVpoEVpoEVpoEVpoEVkoEVgkFQsEFSsEFQsGEcoSvY4CnY4CnY4CnY4CnY4CnY4CnY4CnY4CnY4CnY4CnY4CnY4CnY4CnY4CnY4CnY4CnY4CnY4CnmbNAUT2c2WAo2eAo2eAo2eAo2eAo2eArNEPFACjZ4CjZ4CjZ4CjaIird/rBvFH6llNCvewdli1URWCIakSIZesUaDoFg36dKFWk9zCZDei3TtwmCj7pC22AwikiIZPEU29IpFNliKxa/hC9DFITjQPYhcAAAAAElFTkSuQmCC);
-	background-color: rgba(255,255,255,0.8);
+	background-image: url(data:image/png;base64,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);
+	background-color: rgba(255,255,255,0.0);
 	background-size: 50%;
 	background-repeat: no-repeat;
 	background-position: 50%;
@@ -99,8 +99,8 @@
 	height: 2.7em;
 	text-align: center;
 	overflow: hidden;
-	color: #a33;
 	z-index: 2147483642;
+	animation: arrow 1s infinite;
 }
 
 .ath-container.ath-icon:before {
@@ -199,7 +199,7 @@
 	position: relative;
 	z-index: 2147483642;
 	text-shadow: 0 0.1em 0 #fff;
-	font-size: 1.1em;
+	font-size: 0.8em;
 	text-align: left;
 }
 
@@ -282,4 +282,12 @@
 		z-index: 2147483641;
 		box-shadow: none;
 	}
+}
+
+@keyframes arrow {
+    0%   {top:-2em;}
+    25%  {top:-4em;}
+    50%  {top:-6em;}
+    75%  {top:-8em;}
+    100% {top:-2em;}
 }
