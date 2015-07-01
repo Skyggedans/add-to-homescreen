@@ -36,7 +36,7 @@
 	position: absolute;
 	z-index: 2147483641;
 	padding: 0.7em 0.6em;
-	width: 18em;
+	width: 30em;
 
 	background: #eee;
 	background-size: 100% auto;
@@ -235,17 +235,18 @@
 	position: relative;
 	padding: 0;
 	border: 0;
-	margin: 0 auto 0.2em auto;
+	margin: 0 0.2em 0.2em auto;
 	height: 6em;
 	width: 6em;
 	z-index: 2147483642;
+	float: left;
 }
 
 .ath-container.ath-ios .ath-application-icon {
 	border-radius: 1em;
 	box-shadow: 0 0.2em 0.4em rgba(0,0,0,0.3),
 		inset 0 0.07em 0 rgba(255,255,255,0.5);
-	margin: 0 auto 0.4em auto;
+	margin: 0 0.4em 0.4em auto;
 }
 
 @media only screen and (orientation: landscape) {
