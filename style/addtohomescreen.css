@@ -220,6 +220,7 @@
 
 .ath-ios.ath-tablet:after {
 	content: '';
+	display: none;
 	background: #eee;
 	position: absolute;
 	width: 2em;
