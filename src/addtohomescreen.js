@@ -481,6 +481,7 @@ ath.Class.prototype = {
 
 		// add the action icon
 		message = '<p>' + message.replace('%icon', '<span class="ath-action-icon">icon</span>') + '</p>';
+		message = '<p>' + message.replace('%aths-icon', '<span class="ath-aths-icon">icon</span>') + '</p>';
 
 		// create the message container
 		this.viewport = document.createElement('div');
