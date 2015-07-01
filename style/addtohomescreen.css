@@ -106,7 +106,7 @@
 .ath-container.ath-icon:before {
 	position: absolute;
 	top: 0;
-	right: 0;
+	left: 3em;
 	margin: 0;
 	float: none;
 }
